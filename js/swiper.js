@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded',function(){
             prevEl: ".swiper-button-prev"
         },
         autoplay:{
-            delay:1000,
+            delay:2500,
             pauseOnMouseEnter: true,
             disableOnInteraction:false,
         },
         loop:true,
-        speed: 800,
-        loopedSlides: 7,
+        speed: 600,
+        
         observer: true,
         observeParents: true,
 
@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded',function(){
                 spaceBetween: 10,
             },
             0:{
-                slidesPerView:1,
-                spaceBetween: 10,
+                slidesPerView:2,
+                spaceBetween: 3,
             }
         }
 });
