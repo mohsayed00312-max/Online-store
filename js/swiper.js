@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded',function(){
         },
         loop:true,
         speed: 800,
-        
+        loopedSlides: 7,
         observer: true,
         observeParents: true,
 
