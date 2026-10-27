@@ -423,6 +423,10 @@ header .bottom-header .container .btn a:hover{
 }
 .slider-products .container .products-slides{
     overflow: hidden;
+    height: auto;
+    diplay: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .slider-products .container .products-slides .products .product{
